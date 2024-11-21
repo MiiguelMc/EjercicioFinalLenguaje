@@ -39,6 +39,9 @@ font{
     display: flex;
     justify-content: flex-start;
 }
+.Logo{
+display: flex;
+}
 footer{
   background-color: #383838;
   text-align: center;

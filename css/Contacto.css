@@ -39,6 +39,68 @@ font{
     display: flex;
     justify-content: flex-start;
 }
+.Logo{
+  display: flex;
+  }
+main{
+  display: flex;
+  flex-direction: column  ;
+}
+
+.videoymapa {
+  display: flex;
+
+
+}
+form{
+  background-color: white;
+  align-content:center ;
+  font-size: 14px;
+  padding: 14px;
+  margin: 100px;
+}
+fieldset{
+  margin-bottom: 15px;
+  padding: 10px 20px;
+}
+legend{
+  color: brown;
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+input{
+  background-color: white;
+  border-radius: 4px;
+  color: black  ;
+  font-size: 16px;
+  padding: 3px 3px 3px 10px ;
+  outline: none;
+}
+input[type="submit"]{
+  padding: 6px 30px;
+  color: white;
+  background-color:#154481 ;
+  font-size: 14px;
+}
+textarea{
+  width: 450px;
+  height: 50px;
+  min-width: 300px;
+  max-width: 493px;
+  max-height: 200px;
+  min-height: 50px;
+  margin-top: 4px;
+  color: black;
+  font-size: 16px;
+  padding: 3px 3px 3px 10px;
+}
+.botom_enviar:hover{
+  background-color: #111;
+}
+
+:invalid{
+  border-color: #FF7F7F;
+}
 footer{
   background-color: #383838;
   text-align: center;

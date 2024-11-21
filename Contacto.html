@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 <head>
     <link href="css/Contacto.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Militar ESP</title>
+    <title>Ministerio de Defensa </title>
+    <link rel="icon" href="/img/Flag_of_Spain.svg">
 </head>
 <body>
     <div class="cabeza">
-<header>
-    <img id ="logo" src="img/Logo.png" alt="Foto logo" width="120" height="100">
-</header>
+      <header>
+        <div class = "Logo">
+          <img id = "logo" src="img/Logotipo_del_Ministerio_de_Defensa.svg" alt="Foto Ministerio" width="120" height="100">
+          <img id ="logo" src="img/Logo.png" alt="Foto logo" width="120" height="100">
+        </div>
+      </header>
   <nav>
     <ul>
       <li><a href="Index.html">Inicio</a></li>
@@ -25,9 +27,37 @@
     </ul>
   </nav>
  </div>
-  </main>
-  <h1>Aqui nos puedes encontrar</h1>
-  <iframe src="https://www.google.com/maps/d/embed?mid=1FqlvYBU_MUpKj_oJwPVJux4tqNLemb8m&ehbc=2E312F" width="900" height="680"></iframe>
+ <main>
+  <h1>Contacta con nosotros</h1>
+  <O>
+
+    En tu Delegación/Subdelegación más cercana te facilitarán toda la información, podrás solicitar formularios o pedir cita para las pruebas selectivas.
+    
+    Para información general sobre accesos directos a los Cuerpos y Escalas del Ejécito también puedes contactar con el Centro de Contacto de Reclutamiento en el <b>teléfono 91 308 97 98 </b> de lunes a viernes de 9:00 a 14:00 horas.O tambien nos puedes enviar la tu datos atraves de este formulario.
+    <div class="videoymapa">
+  <iframe src="https://www.google.com/maps/d/embed?mid=1FqlvYBU_MUpKj_oJwPVJux4tqNLemb8m&ehbc=2E312F" width=740px height=580></iframe>
+  <form action="ade">
+    <fieldset> 
+        <legend> Datos Personales</legend>
+        Nombre: <input type="text"  title="Escribe tu nombre." name="nombre" autofocus required/>
+        <br>Apellidos: <input type="text"  title="Escribe tu nombre." name="nombre" autofocus required/>
+        <br>Correo Electronico: <input type="email"  title="Tu correo Electronico name="nombre" autofocus required/><b></b>
+        <br>Numero de Telefono <input type="number"  title="Tu correo Electronico name="nombre" autofocus required/><b></b>
+
+      </fieldset>
+    <fieldset>
+        <legend> </legend>
+        Indique su problema o consulta <br>
+        <textarea name="description" id="descricion"></textarea>
+        <br><input type="radio" name="estado" value="En Servicio">En Servicio
+        <input type="radio" name="estado" value="Familia Servicio">Familiar de Militar
+        <input type="radio" name="estado" value="Reclutamiento">Reclutamiento
+        <input type="radio" name="estado" value="Veterano">Veterano
+        <input type="radio" name="estado" value="Familia de Veterano">Familia de Veterano
+    </fieldset>
+    <input type="submit" value="ENVIAR">
+</form>
+</div>
 </body>
 <footer>
   Ministerio de Defensa © 
