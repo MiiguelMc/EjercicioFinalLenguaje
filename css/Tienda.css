@@ -1,4 +1,5 @@
-body {
+
+html ,body {
   margin: 0px;
   height: 100%;
   position: relative;
@@ -33,6 +34,11 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: white;
+  display: flex;
+}
+nav ul li a:hover {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
   display: flex;
 }
 

@@ -35,6 +35,11 @@ font{
     color: white;
     display: flex;
   }
+  nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    display: flex;
+  }
   #logo {
     display: flex;
     justify-content: flex-start;

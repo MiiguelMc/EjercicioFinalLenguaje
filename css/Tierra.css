@@ -35,6 +35,11 @@ font{
     color: white;
     display: flex;
   }
+  nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    display: flex;
+  }
   #logo {
     display: flex;
     justify-content: flex-start;
@@ -42,6 +47,29 @@ font{
 .Logo{
   display: flex;
   }
+
+  table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr {
+    background-color: #ffffff;
+}
+
 footer{
   background-color: #383838;
   text-align: center;
