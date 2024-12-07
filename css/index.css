@@ -37,6 +37,7 @@ nav ul li a {
   color: white;
   display: flex;
 }
+
 nav ul li a:hover {
   text-decoration: none;
   color: rgb(255, 0, 0);
@@ -70,6 +71,28 @@ p {
 strong {
   font-weight: bold;
   color: #2980b9;
+}
+
+@keyframes bandera {
+  0% {
+    color: red;
+  }
+
+  50% {
+    color: yellow;
+  }
+
+  100% {
+    color: red;
+  }
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  animation: bandera 3s infinite;
+  
 }
 
 .cuadradito {

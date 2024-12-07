@@ -1,76 +1,89 @@
+html,
 body {
-    margin: 0px;
-    height: 100%;
-    position: relative;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh ;
-}
-font{
-    font-family: Opensans;
-    src: url(../Otros/OpenSans-VariableFont_wdth\,wght.ttf);
-}
-.cabeza{
-    display: flex;
-    justify-content:flex-start ;
-    background-color: #383838;
-}
-  nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    background-color: #383838;
-    
-  }
-  nav ul li {
-    margin: 0 5px;
-    display: flex;
-    color: white;
-    padding: 10px;
-    justify-content: center;
-  }
-  nav ul li a {
-    text-decoration: none;
-    color: white;
-    display: flex;
-  }
-  nav ul li a:hover {
-    text-decoration: none;
-    color: rgb(255, 0, 0);
-    display: flex;
-  }
-  #logo {
-    display: flex;
-    justify-content: flex-start;
-}
-.Logo{
+  margin: 0px;
+  height: 100%;
+  position: relative;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   display: flex;
-  }
-
-  table {
-    width: 80%;
-    margin: 20px auto;
-    border-collapse: collapse;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  min-height: 100vh;
+}
+font {
+  font-family: Opensans;
+  src: url(../Otros/OpenSans-VariableFont_wdth\wght.ttf);
+}
+.cabeza {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #383838;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  background-color: #383838;
+}
+nav ul li {
+  margin: 0 5px;
+  display: flex;
+  color: white;
+  padding: 10px;
+  justify-content: center;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+}
+nav ul li a:hover {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+  display: flex;
+}
+#logo {
+  display: flex;
+  justify-content: flex-start;
+}
+.Logo {
+  display: flex;
+}
+.videoYt {
+  margin-left: 30%;
+}
+.titulos {
+  display: flex;
+  justify-content: center;
+  
+}
+.lista{
+  display: flex;
+  justify-content: center;
+}
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-th, td {
-    padding: 12px;
-    text-align: center;
-    border: 1px solid #ddd;
+th,
+td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
 }
 
 th {
-    background-color: #4CAF50;
-    color: white;
+  background-color: #4caf50;
+  color: white;
 }
 
 tr {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
-footer{
+footer {
   background-color: #383838;
   text-align: center;
   margin-top: auto;

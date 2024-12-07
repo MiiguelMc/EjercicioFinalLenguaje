@@ -1,55 +1,82 @@
 body {
-    margin: 0px;
-    height: 100%;
-    position: relative;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh ;
-}
-font{
-    font-family: Opensans;
-    src: url(../Otros/OpenSans-VariableFont_wdth\,wght.ttf);
-}
-.cabeza{
-    display: flex;
-    justify-content:flex-start ;
-    background-color: #383838;
-}
-  nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    background-color: #383838;
-    
-  }
-  nav ul li {
-    margin: 0 5px;
-    display: flex;
-    color: white;
-    padding: 10px;
-    justify-content: center;
-  }
-  nav ul li a {
-    text-decoration: none;
-    color: white;
-    display: flex;
-  }
-  nav ul li a:hover {
-    text-decoration: none;
-    color: rgb(255, 0, 0);
-    display: flex;
-  }
-  #logo {
-    display: flex;
-    justify-content: flex-start;
-}
-.Logo{
+  margin: 0px;
+  height: 100%;
+  position: relative;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   display: flex;
-  }
-footer{
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+font {
+  font-family: Opensans;
+  src: url(../Otros/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+.cabeza {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #383838;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  background-color: #383838;
+
+}
+
+nav ul li {
+  margin: 0 5px;
+  display: flex;
+  color: white;
+  padding: 10px;
+  justify-content: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+  display: flex;
+}
+
+#logo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Logo {
+  display: flex;
+}
+.videoPrincipal{
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.texto{
+  position:absolute;
+  visibility:visible;
+  color: rgba(0, 217, 255, 0.651);
+  top: 20px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  justify-content: center;
+}
+
+
+footer {
   background-color: #383838;
   text-align: center;
   margin-top: auto;
   padding: 1em 0;
+  color: white;
 }
